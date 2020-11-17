@@ -1,0 +1,65 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sticker{
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.firstcontainer{
+  border: 1px solid tomato;
+  background: tomato;
+  height: 500px;
+  width: 70%;
+  position: relative;
+  margin-bottom: 2%;
+}
+.partone{
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.parttwo{
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.partthree{
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.partfour{
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.secondcontainer{
+  background-color: tomato;
+  height: 500px;
+  width: 70%;
+  position: relative;
+}
+.calculator{
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left: calc(45% - 90px);
+  top: calc(45% - 90px);
+}
